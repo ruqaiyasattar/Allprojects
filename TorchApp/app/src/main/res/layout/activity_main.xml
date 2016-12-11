@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    tools:context="com.example.android.torchapp.MainActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FlashLight App"
+        android:textSize="30dp"
+        android:fontFamily="cursive"
+        android:textColor="@color/colorAccent"
+        android:gravity="center"
+        android:layout_marginTop="40dp"
+        android:textStyle="bold"
+        />
+
+  <ImageButton
+      android:id="@+id/imagebutton"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:src="@drawable/flashlight"
+      android:layout_centerVertical="true"
+      android:scaleType="fitCenter"
+      android:background="@color/colorBackground"
+      />
+</RelativeLayout>

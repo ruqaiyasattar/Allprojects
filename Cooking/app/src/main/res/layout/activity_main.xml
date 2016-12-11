@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FBE9E7"
+    tools:context="com.example.android.cooking.MainActivity">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/cap"
+        android:layout_marginTop="45dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+    <ImageView
+        android:onClick="videos"
+        android:id="@+id/waiter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/m"
+        android:layout_alignTop="@+id/cam"
+        android:layout_alignRight="@+id/textView2"
+        android:layout_alignEnd="@+id/textView2" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_height="wrap_content"
+        android:text="Videos"
+        android:paddingLeft="60dp"
+        android:onClick="Videos"
+        android:textSize="24sp"
+        android:layout_below="@+id/waiter"
+        android:id="@+id/textView2" />
+    <ImageView
+        android:onClick="make_video"
+        android:id="@+id/cam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/came"
+        android:layout_marginTop="88dp"
+        android:layout_below="@+id/logo"
+        android:layout_alignRight="@+id/logo"
+        android:layout_alignEnd="@+id/logo"
+        android:layout_marginRight="45dp"
+        android:layout_marginEnd="45dp" />
+    <TextView
+        android:layout_marginTop="12dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Make Videos"
+        android:paddingLeft="200dp"
+        android:textSize="24sp"
+        android:onClick="MakeVideos"
+        android:id="@+id/textView"
+        android:layout_below="@+id/cam"
+        android:layout_alignLeft="@+id/logo"
+        android:layout_alignStart="@+id/logo" />
+
+
+
+</RelativeLayout>

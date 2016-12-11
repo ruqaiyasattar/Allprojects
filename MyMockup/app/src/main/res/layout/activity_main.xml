@@ -1,0 +1,52 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/section_label"
+        android:background="@drawable/back"
+        android:layout_width="match_parent"
+        android:layout_height="150dp" />
+    <RelativeLayout
+        android:id="@+id/section_label1"
+
+        android:layout_width="match_parent"
+        android:background="#AED581"
+        android:layout_height="330dp"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/section_label">
+
+        <Button
+            android:onClick="New"
+            android:background = "#605D9B"
+            android:id="@+id/buttoN2"
+            android:textColor="#FFFFFF"
+            android:text="Existing user"
+            android:layout_width="199sp"
+            android:layout_height="60sp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="46dp" />
+        <Button
+        android:onClick="New_User"
+        android:background = "#605D9B"
+        android:id="@+id/buttoN3"
+        android:textColor="#FFFFFF"
+        android:text="New User"
+        android:layout_width="199sp"
+        android:layout_height="60sp"
+        android:layout_above="@id/buttoN2"
+        android:layout_marginBottom="21sp"
+        android:layout_alignLeft="@+id/buttoN2"
+        android:layout_alignStart="@+id/buttoN2"
+        android:layout_alignRight="@+id/buttoN2"
+        android:layout_alignEnd="@+id/buttoN2" />
+
+
+
+
+    </RelativeLayout>
+    </RelativeLayout>
+
